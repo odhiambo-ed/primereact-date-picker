@@ -108,11 +108,11 @@ function NavBar() {
         }
     ];
 
-    const start = <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>;
+    const start = <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Edward Odhiambo</span>;
     const end = <InputText placeholder="Search" type="text" className="w-full" />;
 
   return (
-    <div className="card">
+      <div className="bg-gray-700">
           <Menubar model={items} start={start} end={end} />
     </div>
   )
