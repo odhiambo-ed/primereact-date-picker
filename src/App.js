@@ -4,6 +4,7 @@ import 'primeicons/primeicons.css';
 import { useState } from 'react';
 import { Calendar } from 'primereact/calendar';
 import NavBar from './components/NavBar';
+import Cal from "./components/Cal";
 
 function App() {
   const [date1, setDate1] = useState(null);
@@ -16,6 +17,7 @@ function App() {
         <Calendar value={date1} onChange={(e) => setDate1(e.value)} showIcon />
         <Calendar value={date2} onChange={(e) => setDate2(e.value)} showIcon />
       </div>
+      <Cal />
     </main>
   );
 }
