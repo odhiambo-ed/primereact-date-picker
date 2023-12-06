@@ -37,29 +37,6 @@ function NavBar() {
             ]
         },
         {
-            label: 'Edit',
-            icon: 'pi pi-fw pi-pencil',
-            items: [
-                {
-                    label: 'Left',
-                    icon: 'pi pi-fw pi-align-left'
-                },
-                {
-                    label: 'Right',
-                    icon: 'pi pi-fw pi-align-right'
-                },
-                {
-                    label: 'Center',
-                    icon: 'pi pi-fw pi-align-center'
-                },
-                {
-                    label: 'Justify',
-                    icon: 'pi pi-fw pi-align-justify'
-                },
-
-            ]
-        },
-        {
             label: 'Users',
             icon: 'pi pi-fw pi-user',
             items: [
@@ -131,7 +108,7 @@ function NavBar() {
         }
     ];
 
-    const start = <img alt="logo" src="https://primefaces.org/cdn/primereact/images/logo.png" height="40" className="mr-2"></img>;
+    const start = <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>;
     const end = <InputText placeholder="Search" type="text" className="w-full" />;
 
   return (
